@@ -2,6 +2,13 @@
 
 > Interface de Usuário do Sistema
 
+Principais features à implementar:
+ - CRUD de clientes (donos e caẽs)
+ - CRUD de profissionais
+ - Agenda de banhos e tosas (dia, mês e semana)
+ - Controle da agenda por profissional
+ - Controle de fluxo de caixa (?)
+
 ## Build Setup
 
 ``` bash
