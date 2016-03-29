@@ -1,5 +1,5 @@
 <template>
-<ul id="dropdown1" class="dropdown-content">
+<!-- <ul id="dropdown1" class="dropdown-content">
   <li><a href="#!">one</a></li>
   <li><a href="#!">two</a></li>
   <li class="divider"></li>
@@ -11,10 +11,31 @@
     <ul class="right hide-on-med-and-down">
       <li><a href="sass.html">Sass</a></li>
       <li><a href="badges.html">Components</a></li>
-      <!-- Dropdown Trigger -->
+      Dropdown Trigger
       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
   </div>
 </nav>
-  <div class="container"></div>
+  <div class="container">
+    <router-view> </router-view>
+  </div> -->
+  <navbar></navbar>
+  <sidebar></sidebar>
+  <div class="container">
+      <router-view> </router-view>
+  </div>
+
 </template>
+
+<script>
+  import navbar from './components/navbar/navbar.vue'
+  import sidebar from './components/sidebar/sidebar.vue'
+
+  export default {
+    components: {
+      navbar,
+      sidebar
+    }
+  }
+
+</script>

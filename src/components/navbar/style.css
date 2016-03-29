@@ -1,0 +1,26 @@
+#dropdown-perfil {
+    font-size: 18px;
+}
+
+#dropdown-perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+
+#dropdown-perfil span {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 0px 20px 0px 10px;
+    line-height: 15px;
+}
+
+#dropdown-perfil span small {
+    display: block;
+}
+
+#dropdown1 i {
+    display: inline;
+    vertical-align: middle;
+}
