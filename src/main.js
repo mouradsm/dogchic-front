@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
+import VueResource from 'vue-resource'
 
 /* Páginas */
 import Index from './components/pages/index/index'
 import Clientes from './components/pages/clientes/clientes'
 
 Vue.use(VueRouter)
+Vue.use(VueResource)
 
 export var router = new VueRouter()
 
@@ -26,4 +28,4 @@ router.redirect({
   '*': '/index'
 })
 
-router.start(App, 'app')
+router.start(App, '#app')
