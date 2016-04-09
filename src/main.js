@@ -28,4 +28,4 @@ router.redirect({
   '*': '/index'
 })
 
-router.start(App, '#app')
+router.start(App, 'app')

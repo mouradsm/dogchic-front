@@ -9,10 +9,11 @@ export default{
  		getClientes: function(){
  			this.$http.get('http://localhost:8000/api/clientes', function(response, status, request){
  				if(status == 200){
- 					this.clientes = response.data;
+ 					this.$set('clientes', response.data); 			
  				}
  			});
+
+ 			
  		}
  	}
 }
-
